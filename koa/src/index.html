@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="cn">
+<head>
+    <meta charset="UTF-8">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <div id="app"></div>
+    <script src="<%= htmlWebpackPlugin.options.dllJs + '?' + new Date().getTime() %>"></script>
+</body>
+</html>
